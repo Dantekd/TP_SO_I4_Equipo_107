@@ -2,18 +2,35 @@ Pizzaro Jonathan, Altube Renata y Encina Dante.
 
 A- ¿Qué color de fondo tiene su página en el TESTING ?
 Tiene color de fondo azul en su pagina.
+
 B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
 Tiene color de fondo amarrillo en su pagina.
+
 C- ¿Qué color de fondo tiene su página en el MASTER?
 Tiene color de fondo azul en su pagina.
+
 D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
-Quedo el favicon de ALFA
-E- ¿Algún integrante tuvo problemas al hacer el push?
-F- ¿Qué problemas surgieron?
-G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
-adoptada?
+Quedo el favicon de ALFA, ya que se sobreescribe el de beta en el punto 8.
+
+E- ¿Algún integrante tuvo problemas al hacer el push? 
+Si los integrantes ALFA y BETA tuvimos errores al realizar los push que sobrescribían el código existente en las distintas ramas. 
+Y en la caso del ejercicio en simultaneo fueron BETA y GAMMA los que sufrieron de este error de sobreescritura al subir sus datos sin aplicar ninguna de las soluciones posibles (pregunta G).
+
+F- ¿Qué problemas surgieron? 
+Al intentar realizar un push se produce el error de "Fetch first" o "non-fast-forward". 
+Este ocurre ya que la version de la pagina GitHub con la rama que intentábamos modificar tenia diferente contenido que nuestros respectivos repositorios locales (ya sea por que eran distintas ramas modificadas por distintos integrantes o la misma pero con cambios subidos posterior al pull de la persona subiendo los nuevos cambios). 
+Git frena el push para evitar que se sobrescriban de forma no intencionalmente los archivos del repositorio.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución adoptada? 
+
+La primera solución seria realizar un git pull y resolver los conflictos de manera local antes de intentar hacer el commit y el push de las ediciones locales. 
+La segunda manera seria usando el comando git pull --rebase de la rama a modificar para solucionar los errores y evitar sobreescritura 
+Por ultimo esta git push --f que es la que terminamos utilizando que sobrescribía cada modificación previa no local por nuestra version del archivo. 
+En el ejercicio simultaneo terminamos con la info del GAMMA, el ultimo en ejecutar los comandos y subir su archivo local.
+
 H- ¿Qué sucede si cada uno utiliza el push-f?
 Se perderia lo que hizo mi compañero antes.
+
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO ?
 ALPHA hace los cambios y hace el push, BETA hace un pull de los cambios de ALPHA y luego hace los cambios y pushea y GAMMA repite lo mismo que BETA para despues hacer el marge de TESTING a DESARROLLO
