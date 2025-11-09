@@ -1,0 +1,10 @@
+Pizzaro Jonathan, Altube Renata y Encina Dante. 
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+Tiene color de fondo azul en su pagina.
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+Tiene color de fondo amarrillo en su pagina.
+C- ¿Qué color de fondo tiene su página en el MASTER?
+Tiene color de fondo azul en su pagina.
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+Quedo el favicon de ALFA
