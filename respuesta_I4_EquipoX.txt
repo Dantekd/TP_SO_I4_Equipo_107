@@ -13,5 +13,7 @@ F- ¿Qué problemas surgieron?
 G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
 adoptada?
 H- ¿Qué sucede si cada uno utiliza el push-f?
+Se perderia lo que hizo mi compañero antes.
 I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO ?
+ALPHA hace los cambios y hace el push, BETA hace un pull de los cambios de ALPHA y luego hace los cambios y pushea y GAMMA repite lo mismo que BETA para despues hacer el marge de TESTING a DESARROLLO
